@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+img {
+    width: 100%;
+}
+
+section{
+    text-align: center;
+    padding: 2rem 11%;
+}
+
+/* Home Section Starts From Here */
+
+.home{
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+.home .home-container .nav .navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.home .home-container .nav .navbar .logo{
+    font-size: 1.7rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.home .home-container .nav .navbar .logo i{
+    font-size: 2.3rem;
+    color: #0070f3;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.home .home-container .nav .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.home .home-container .nav .navbar .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.home .home-container .nav .navbar .nav-links a:hover {
+    color: #0070f3;
+}
+
+.home .home-container .nav .navbar .cta-button {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.home .home-container .nav .navbar .cta-button:hover{
+    color: #000;
+    background-color: #5695dc;
+}
+
+.home .home-container .hero .hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0 11%;
+    margin-top: 5rem;
+}
+
+.home .home-container .hero .hero-container .hero-image{
+    width: 37rem;
+}
+
+
+.home .home-container .hero .hero-container .hero-content {
+    text-align: start;
+}
+
+.home .home-container .hero .hero-container .hero-content h1{
+    font-size: 5rem;
+}
+
+.home .home-container .hero .hero-container .hero-content p{
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.home .home-container .hero .hero-container .hero-content .hero-cta{
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+
+}
+
+.home .home-container .hero .hero-container .hero-content .hero-cta:hover{
+    color: #000;
+    background-color: #5695dc;
+}
+
+/* Home Section Ends From Here */
+
+/* Feature Section Starts From Here */
+
+.features .features-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.features .features-container .features-box{
+
+    background-color: #f5f5f5;
+    padding: 1.2rem;
+    border-radius: .5rem;
+    height: 12rem;
+}
+
+.features .features-container .features-box .icon i{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    columns: #000;
+}
+
+.features .features-container .features-box .heading h2{
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+/* Feature Section Ends From Here */
+
+
+/* Products Section Starts From Here */
+
+.products .products-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.products .products-container .text{
+    text-align: start;
+}
+
+.products .products-container .text h1{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.products .products-container .text .box{
+    font-size: 1.2rem;
+    color: #515151;
+    margin-bottom: 1.3rem;
+}
+
+.products .products-container .text .box i {
+    color: #000;
+    margin-right: 1rem;
+}
+
+.products .products-container .text .box span{
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.products .products-container .text .box p{
+    margin-left: 2.3rem;
+    margin-top: .6rem;
+}
+
+
+
+.products .products-container .product-images .image-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.products .products-container .product-images .image-box img{
+    width: 100%;
+    height: 200px;
+    border-radius: .5rem;
+}
+
+/* Products Section Ends From Here */
+
+
+.testimonial h1{
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.cta-section{
+    padding-bottom: 0;
+}
+
+.cta-section .cta-section-container{
+    background-color: #000;
+    padding: 2rem 0 2rem 0;
+    margin-bottom: 0;
+}
+
+.cta-section .cta-section-container h2{
+    margin-bottom: 1rem;
+    color: #fff;
+} 
+
+.cta-section .cta-section-container .cta-button{
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.cta-section .cta-section-container .cta-button:hover{
+    color: #000;
+    background-color: #5695dc;
+}
+
+footer .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    padding: 1rem 3%;    
+}
+
+footer .footer-content p{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+footer .footer-content .social-links i{
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* media quarry Starts From Here  */
+
+@media (max-width: 1200px) {
+
+    html{
+        font-size: 70%;
+    }
+
+    /* Home Section Ends From Here */
+
+    .products .products-container .product-images .image-box img{
+        height: 170px;
+    }
+
+    /* product Section Ends From Here */
+
+}
+
+@media (max-width: 991px) {
+
+    .home .home-container .hero .hero-container{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .home .home-container .hero .hero-container{
+        margin-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    /* Home Section Ends From Here */
+
+    .features .features-container .features-box{
+        background-color: #f5f5f5;
+        padding: 1.2rem;
+        border-radius: .5rem;
+        height: 12rem;
+    }
+
+    /* Feature Section Ends From Here */
+
+    .products .products-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .products .products-container .product-images .image-box img{
+        height: 150px;
+    }
+
+    /* product Section Ends From Here */
+
+}
+
+@media (max-width: 768px) {
+
+    html{
+        font-size: 50%;
+    }
+
+    /* Home Section Ends From Here */
+
+}
+
+
+@media (max-width: 600px) {
+
+    .products .products-container .product-images .image-box img{
+        height: 120px;
+    }
+}
